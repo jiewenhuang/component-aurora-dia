@@ -358,7 +358,7 @@ class AuroraBotSoftware {
       this.showQuote();
       return;
     }
-    const shadowRoot = document.querySelector("lit-aurora-dia")?.shadowRoot;
+    const shadowRoot = document.querySelector("aurora-dia")?.shadowRoot;
 
     const tipsContainerEl = shadowRoot?.querySelector(
       "#Aurora-Dia--tips-wrapper",
