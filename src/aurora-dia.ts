@@ -1,6 +1,6 @@
 import { LitElement, PropertyValueMap, css, html } from "lit";
 import { customElement, property } from "lit/decorators.js";
-import { auroraDiaStyle } from "./aurora-dia-style";
+import { auroraDiaStyle } from "./aurora-dia-style.ts";
 import { AuroraDia as Dia, DiaConfig } from "./utils";
 
 /**
